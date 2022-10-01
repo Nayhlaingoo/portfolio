@@ -437,7 +437,7 @@
     </section>
 
     <section
-      class="w-full mx-auto md:py-7 my-10 py-16 lg:flex justify-between items-center relative"
+      class="w-full mx-auto md:py-7 my-10 sm:py-16 py-7 lg:flex justify-between items-center relative"
       data-carousel="static"
     >
       <div
@@ -463,7 +463,7 @@
         <div id="controls-carousel" class="relative" data-carousel="static">
           <!-- Carousel wrapper -->
           <div
-            class="overflow-hidden relative w-full h-[50vh] rounded-lg border-red-500"
+            class="overflow-hidden relative w-full sm:h-[50vh] h-72 rounded-lg border-red-500"
           >
             <div
               class="absolute right-0 top-0 bg-gradient-to-l from-white z-30 h-full sm:w-[30%]"
@@ -473,14 +473,14 @@
               class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
             >
               <div
-                class="bg-gradient-to-r from-red-600 to-rose-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+                class="bg-gradient-to-r from-red-600 to-rose-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96 h-64"
               >
                 <h2 class="text-3xl mb-5">Perfect404</h2>
-                <p class="my-3 text-white">
+                <p class="mb-3 text-white">
                   The Perfect 404 is programming/coding website that i build
                   base on tailwind and vuejs.
                 </p>
-                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <p class="my-2 text-zinc-200">You can visit to see</p>
                 <a
                   class="font-sans flex items-center gap-2 text-sm text-zinc-200 hover:underline underline-offset-1"
                   href="https://perfect-404-advf-346wizvoe-nayhlaingoo.vercel.app/"
@@ -508,14 +508,14 @@
               class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
             >
               <div
-                class="bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+                class="bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96 h-64"
               >
                 <h2 class="text-3xl mb-5">LadyBravo</h2>
-                <p class="my-3 text-white">
-                  The Lady Bravo is chocolate online store currently im working
+                <p class="mb-3 text-white">
+                  The Lady Bravo is chocolate online store, currently im working
                   on it as well base on nuxtjs.
                 </p>
-                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <p class="my-2 text-zinc-200">You can visit to see</p>
                 <a
                   class="font-sans flex items-center gap-2 text-sm text-zinc-200 hover:underline underline-offset-1"
                   href="https://lady-bravo-uxv6-5j7lrio9x-nayhlaingoo.vercel.app/"
@@ -543,14 +543,14 @@
               class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
             >
               <div
-                class="bg-gradient-to-r from-zinc-500 to-slate-600 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+                class="bg-gradient-to-r from-zinc-500 to-slate-600 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96 h-64"
               >
                 <h2 class="text-3xl mb-5">Filter Search</h2>
-                <p class="my-3 text-white">
+                <p class="mb-3 text-white">
                   This is my very first sveltekit project that i tried to build
                   my own small project just for fun.
                 </p>
-                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <p class="my-2 text-zinc-200">You can visit to see</p>
                 <a
                   class="font-sans flex items-center gap-2 text-sm text-zinc-200 cursor-pointer hover:underline underline-offset-1"
                   href="https://filter-search-sveltekit-bsyp.vercel.app/"
@@ -578,14 +578,14 @@
               class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
             >
               <div
-                class="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+                class="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96 h-64"
               >
                 <h2 class="text-3xl mb-5">Rethinkable</h2>
-                <p class="my-3 text-white">
+                <p class="mb-3 text-white">
                   The rethinkable is social media app but you can find a
                   thousands of jobs. Base on sveltekit.
                 </p>
-                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <p class="my-2 text-zinc-200">You can visit to see</p>
                 <a
                   class="font-sans flex items-center gap-2 text-sm text-zinc-200 hover:underline underline-offset-1"
                   target="_blank"
@@ -612,17 +612,17 @@
         </div>
 
         <!-- Slider controls -->
-        <div class="flex mt-2">
+        <div class="flex sm:justify-start justify-end mt-1">
           <button
             type="button"
             class="flex top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
             data-carousel-prev
           >
             <span
-              class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-zinc-200/70 dark:group-hover:bg-zinc-200"
+              class="inline-flex justify-center items-center w-14 sm:w-10 h-14 sm:h-10 rounded-full dark:bg-zinc-200/70 dark:group-hover:bg-zinc-200"
             >
               <svg
-                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                class="w-7 h-7 text-white sm:w-6 sm:h-6 dark:text-gray-800"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -644,10 +644,10 @@
             data-carousel-next
           >
             <span
-              class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-zinc-200/70 dark:group-hover:bg-zinc-200"
+              class="inline-flex justify-center items-center w-14 sm:w-10 h-14 sm:h-10 rounded-full dark:bg-zinc-200/70 dark:group-hover:bg-zinc-200"
             >
               <svg
-                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                class="w-7 h-7 text-white sm:w-6 sm:h-6 dark:text-gray-800"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -677,9 +677,14 @@
           QUESTIONS.
         </h2>
         <div
-          class="md:mr-10 font-sans md:w-auto w-full text-zinc-400 tracking-tighter mt-1"
+          class="md:mr-10 font-sans md:w-auto w-full text-zinc-400 tracking-tighter sm:mt-1 mt-5"
         >
-          <details class="mb-4 md:w-[35rem] w-full mx-auto duration-700">
+          <details
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-anchor-placement="top-bottom"
+            class="mb-4 md:w-[35rem] w-full mx-auto duration-700"
+          >
             <summary
               class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
             >
@@ -691,7 +696,12 @@
               nostrud pariatur culpa magna in aute.
             </span>
           </details>
-          <details class="mb-4 md:w-[35rem] w-full mx-auto">
+          <details
+            data-aos="fade-up"
+            data-aos-duration="600"
+            data-aos-anchor-placement="top-bottom"
+            class="mb-4 md:w-[35rem] w-full mx-auto"
+          >
             <summary
               class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
             >
@@ -703,7 +713,12 @@
               nostrud pariatur culpa magna in aute.
             </span>
           </details>
-          <details class="mb-4 md:w-[35rem] w-full mx-auto">
+          <details
+            data-aos="fade-up"
+            data-aos-duration="700"
+            data-aos-anchor-placement="top-bottom"
+            class="mb-4 md:w-[35rem] w-full mx-auto"
+          >
             <summary
               class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
             >
@@ -715,7 +730,12 @@
               nostrud pariatur culpa magna in aute.
             </span>
           </details>
-          <details class="mb-4 md:w-[35rem] w-full mx-auto">
+          <details
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-anchor-placement="top-bottom"
+            class="mb-4 md:w-[35rem] w-full mx-auto"
+          >
             <summary
               class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
             >
