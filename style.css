@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  #top {
+    --offset: 50px;
+    margin-top: calc(100vh + var(--offset));
+  }
+  .logo,
+  h2 {
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0.2rem;
+  }
+  h3 {
+    font-family: "Heebo", sans-serif;
+  }
+  p {
+    color: #a1a1aa;
+    font-family: Arial, Helvetica, sans-serif;
+  }

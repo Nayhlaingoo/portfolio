@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.28.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <!-- animate.css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- aos scroll library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font heebo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Interest</title>
+  </head>
+
+  <body>
+    <header class="main h-screen z-50">
+      <nav
+        class="bg-white text-zinc-800 flex justify-between items-center font-sans px-4 sm:px-10 py-4"
+      >
+        <h1
+          class="slidingText fony-sans text-sm sm:text-base text-white px-2 py-1 rounded-md bg-gradient-to-r from-zinc-600 to-neutral-700"
+        >
+          <a
+            href="https://docs.google.com/document/d/1sg4gsjQnD3PTVzAbAfGQZ0XmeffPJlG6GrrnloS70aI/edit?usp=sharing"
+            target="_blank"
+            >Resume</a
+          >
+        </h1>
+        <ul class="flex items-center gap-5">
+          <div class="w-7 h-7">
+            <img
+              class="w-full h-full rounded-full object-cover"
+              src="/Images/IMG4.jpg"
+              alt=""
+            />
+          </div>
+        </ul>
+      </nav>
+      <a href="#">
+        <h1
+          class="logo md:pt-0 pt-2 text-zinc-800 md:tracking-wide cursor-default tracking-normal md:text-3xl absolute left-[50%] top-[50%] -translate-x-1/2 -translate-y-1/2"
+        >
+          Designing
+        </h1>
+      </a>
+    </header>
+
+    <section class="bg-zinc-900 w-full py-10 px-1 text-lg">
+      <div
+        class="lg:w-[90%] w-[97%] mx-auto md:flex items-center justify-between gap-5 mt-5"
+      >
+        <div class="md:w-[60%] mb-14">
+          <h2 class="md:text-[3vw] text-4xl md:mb-10 mb-7 text-zinc-100">
+            My Story
+          </h2>
+          <p class="mb-1">
+            Hello, Thanks for visiting my page. My name is Sohail. I was born in
+            Mandalay which is a former royal capital of Myanmar. I am currently
+            living in Malaysia. My story begins back in 2019 when I started
+            teaching myself HTML and CSS using the FreeCodeCamp and SoloLearn
+            app on my phone. The reason I started learning HTML and CSS is that
+            I wanted to make web-app, web-design and web-animation. I coded 10
+            hours or more every day for the second website After a bit of
+            practicing, I was able to make a website that looks okay. In
+            2020-2021 worked as a part time waiter at coffee shop (Koffie Craft-
+            Dutch Restaurant) for side income while taking on freelance web
+            projects. Currently i am working as a junior frontend developer
+            under
+            <a class="text-white" href="https://www.epicstartups.co/"
+              >Epic Startup</a
+            >
+            tech company.
+          </p>
+        </div>
+        <div class="relative md:max-w-xs w-[90%] mx-auto">
+          <div class="w-full h-[400px] bg-zinc-600 absolute -top-6 -left-4">
+            <span
+              class="absolute bottom-4 left-2 leading-none rotate-180 [writing-mode:vertical-lr] inline-blocks uppercase tracking-widest"
+              >PORTRAIT</span
+            >
+          </div>
+          <div class="relative left-4">
+            <img
+              class="w-full h-[400px] object-center object-cover relative rounded-tr-[40px] rounded-bl-[40px]"
+              src="/Images/IMG4.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-zinc-900 w-full px-1 pt-14 pb-28 text-lg">
+      <div class="lg:w-[90%] w-[97%] mx-auto">
+        <div
+          class="md:text-7xl text-5xl text-zinc-100 mx-auto leading-snug mb-10"
+        >
+          <h2>THIS IS WHAT</h2>
+          <h2>I'VE DONE</h2>
+          <h2>NOW.</h2>
+        </div>
+        <div class="mx-auto lg:flex items-center justify-between gap-10">
+          <div class="block lg:hidden mb-14 max-w-3xl">
+            <h2 class="text-3xl mb-5 text-zinc-100">My Skills</h2>
+            <p>
+              <span class="text-white">This is what i learnt.</span> That time
+              i'd struggle and coded mistakes, because i didn't get an
+              opportunity to go to University to pursue Computer Science or
+              others. So i'd learn myself on some website like freecodecamp and
+              watch youtube. Whatever I am sure that it will be worth it as I
+              learn every day.
+            </p>
+          </div>
+          <div
+            class="max-w-2xl grid grid-cols-3 md:gap-7 sm:gap-5 gap-3 text-zinc-900"
+          >
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm">HTML</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="550"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm">CSS</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm tracking-normal">BOOTSTRAP</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm tracking-normal">TAILWIND</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm">SVELTE</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="900"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm">VUE</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm">NUXT</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1100"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm">GIT</h2>
+            </div>
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1300"
+              data-aos-anchor-placement="top-bottom"
+              class="bg-zinc-600 py-5 px-2 rounded-sm flex justify-center items-center"
+            >
+              <h2 class="md:text-2xl text-sm">GITHUB</h2>
+            </div>
+          </div>
+          <div class="lg:block hidden w-[40%]">
+            <h2 class="text-[2.5vw] mb-7 text-zinc-100">My Skills</h2>
+            <p>
+              <span class="text-white">This is what i learnt.</span> That time
+              i'd struggle and coded mistakes, because i didn't get an
+              opportunity to go to University to pursue Computer Science or
+              others. So i'd learn myself on some website like freecodecamp and
+              watch youtube. Whatever I am sure that it will be worth it as I
+              learn every day.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="pt-10 pb-5 bg-zinc-50 w-full relative"
+      data-carousel="slide"
+    >
+      <h2
+        class="md:text-[4vw] text-zinc-800 leading-none text-4xl text-center mt-5"
+      >
+        My Personal Skills. <br />
+        Just on paper.
+      </h2>
+      <!-- mobile -->
+      <div class="block sm:hidden px-2">
+        <div
+          class="overflow-hidden relative w-full h-[50vh] rounded-sm border-red-500 my-10"
+        >
+          <div
+            data-carousel-item
+            class="flex items-center justify-start bg-zinc-50 duration-700 ease-in-out"
+          >
+            <div class="max-w-sm mx-auto">
+              <img
+                class="w-full h-[40vh] rounded-sm object-cover overflow-hidden"
+                src="/Images/drawing1.jpg"
+              />
+              <h3 class="text-[#281D50] text-zinc-800 mb-10 mt-3">
+                Portrait drawing <br />
+                <span
+                  class="text-zinc-500 leading-none font-sans font-medium space-y-4"
+                  >with <span class="text-[#281D50]">colour pencils</span>, This
+                  is stitch cartoon that i drawn at 2018 and it took my time
+                  around 1 hours. :P</span
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-carousel-item
+            class="flex items-center justify-start bg-zinc-50 duration-700 ease-in-out"
+          >
+            <div class="max-w-sm mx-auto">
+              <img
+                class="w-full h-[40vh] rounded-sm object-cover overflow-hidden"
+                src="/Images/drawing4.jpg"
+              />
+              <h3 class="text-[#372E1F] text-zinc-800 mb-10 mt-3">
+                Portrait drawing <br />
+                <span
+                  class="text-zinc-500 leading-none font-sans font-medium space-y-4"
+                  >with <span class="text-[#372E1F]">charcol pencils</span>,
+                  This is one of my favorite portrait drawing that i drawn at
+                  2020.</span
+                >
+              </h3>
+            </div>
+          </div>
+          <div
+            data-carousel-item
+            class="flex items-center justify-start bg-zinc-50 duration-700 ease-in-out"
+          >
+            <div class="max-w-sm mx-auto">
+              <img
+                class="w-full h-[40vh] rounded-sm object-cover overflow-hidden"
+                src="/Images/art1.jpg"
+              />
+              <h3 class="text-[#520207] text-zinc-800 mb-10 mt-3">
+                3D drawing <br />
+                <span
+                  class="text-zinc-500 leading-none font-sans font-medium space-y-4"
+                  >with <span class="text-[#520207]">drawing pencils</span>,
+                  This is the simple 3D drawing letter that i drawn as a gift on
+                  someone's birthday.</span
+                >
+              </h3>
+            </div>
+          </div>
+        </div>
+        <!-- Slider indicators -->
+        <div
+          class="absolute bottom-0 -translate-x-1/2 left-1/2 z-30 flex space-x-3 my-5"
+        >
+          <button
+            type="button"
+            class="w-2 h-2 rounded-full"
+            aria-current="false"
+            aria-label="Slide 1"
+            data-carousel-slide-to="0"
+          ></button>
+          <button
+            type="button"
+            class="w-2 h-2 rounded-full"
+            aria-current="false"
+            aria-label="Slide 2"
+            data-carousel-slide-to="1"
+          ></button>
+          <button
+            type="button"
+            class="w-2 h-2 rounded-full"
+            aria-current="false"
+            aria-label="Slide 3"
+            data-carousel-slide-to="2"
+          ></button>
+        </div>
+      </div>
+      <!-- desktop -->
+      <div class="py-28 flex flex-col justify-center hidden sm:block">
+        <div
+          class="grid grid-rows-2 md:max-w-4xl sm:w-[90%] px-2 sm:px-0 mx-auto"
+        >
+          <div class="flex justify-start translate-y-1.5 mb-1">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              class="flex items-center gap-5"
+            >
+              <img
+                class="md:w-[45rem] w-96 h-[40vh] md:h-[80vh] object-cover rounded-sm overflow-hidden"
+                src="/Images/drawing1.jpg"
+              />
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="1100"
+                data-aos-anchor-placement="top-bottom"
+                class="md:text-xl text-[#281D50] text-zinc-800 md:w-full"
+              >
+                Portrait drawing <br />
+                <span
+                  class="text-zinc-500 md:text-lg leading-none font-sans font-medium space-y-4"
+                  >with <span class="text-[#281D50]">colour pencils</span>, This
+                  is stitch cartoon that i drawn at 2018 and it took my time
+                  around 1 hours. :P</span
+                >
+              </h3>
+            </div>
+          </div>
+
+          <div class="flex justify-end translate-y-1.5">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-anchor-placement="top-bottom"
+              class="flex items-center gap-5"
+            >
+              <h3
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-anchor-placement="top-bottom"
+                class="md:text-xl text-[#372E1F] text-zinc-800"
+              >
+                Portrait drawing <br />
+                <span
+                  class="text-zinc-500 md:text-lg leading-none font-sans font-medium space-y-4"
+                  >with <span class="text-[#372E1F]">charcol pencils</span>,
+                  This is one of my favorite portrait drawing that i drawn at
+                  2020.
+                </span>
+              </h3>
+              <img
+                class="md:w-[45rem] w-96 h-[40vh] md:h-[80vh] rounded-sm object-cover overflow-hidden"
+                src="/Images/drawing4.jpg"
+              />
+            </div>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-anchor-placement="top-bottom"
+            class=""
+          >
+            <div
+              class="shadow-xl rounded-xl overflow-hidden border-zinc-100 border-[1px] bg-zinc-50 md:w-[60%] w-full px-5 py-10 md:-mt-32 -mt-4"
+            >
+              <div class="space-y-4">
+                <h2 class="text-4xl text-zinc-800 tracking-tight">
+                  Art Design.
+                </h2>
+                <p class="text-sm md:text-base text-zinc-500">
+                  My unique personal skill is drawing and sketching. I have been
+                  doing that since 2015. I am type of person who enjoys watching
+                  videos so I have learnt how to draw by watching videos on
+                  Youtube. Often times I would pencil sketch something like a 3D
+                  art or human faces. I have sketched pictures of my friends. I
+                  am constantly improving my skills on how to sketch.
+                </p>
+              </div>
+              <div class="border-t border-b border-gray-200 mt-7 mb-4 py-5">
+                <div>
+                  <p class="text-2xl text-zinc-800 font-bold mb-2">Drawing</p>
+                  <p class="text-sm text-zinc-500">
+                    As you saw some of my sample sketches in pictures. :)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="w-full mx-auto md:py-7 my-10 py-16 lg:flex justify-between items-center relative"
+      data-carousel="static"
+    >
+      <div
+        class="lg:ml-16 md:ml-7 mb-4 md:mb-0 lg:w-auto w-[97%] sm:max-w-5xl ml-auto pr-2"
+      >
+        <div class="md:text-7xl text-5xl text-zinc-800">
+          <h2 class="md:text-2xl text-xl text-zinc-600 -mb-1">ABOUT MY</h2>
+          <h2 class="mb-1">PROJECT THAT</h2>
+          <h2 class="mb-1">I'VE DONE</h2>
+          <h2>NOW.</h2>
+        </div>
+        <p class="max-w-xl mt-4 text-zinc-500">
+          <span class="text-zinc-900">Perfect 404</span> and
+          <span class="text-zinc-900">Lady-Bravo</span> projects are base on
+          vueJS and nuxtJS. For Lady-Bravo project that i build as a freelancer
+          and rethinkable project is under the epic startup tech company
+          currently that i joined and i worked at the frontend ui on that
+          project that base on sveltekit.
+        </p>
+      </div>
+
+      <div class="lg:w-[40%] sm:w-[97%]">
+        <div id="controls-carousel" class="relative" data-carousel="static">
+          <!-- Carousel wrapper -->
+          <div
+            class="overflow-hidden relative w-full h-[50vh] rounded-lg border-red-500"
+          >
+            <div
+              class="absolute right-0 top-0 bg-gradient-to-l from-white z-30 h-full sm:w-[30%]"
+            ></div>
+            <div
+              data-carousel-item
+              class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
+            >
+              <div
+                class="bg-gradient-to-r from-red-600 to-rose-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+              >
+                <h2 class="text-3xl mb-5">Perfect404</h2>
+                <p class="my-3 text-white">
+                  The Perfect 404 is programming/coding website that i build
+                  base on tailwind and vuejs.
+                </p>
+                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <a
+                  class="font-sans flex items-center gap-2 text-sm text-zinc-200 hover:underline underline-offset-1"
+                  href="https://perfect-404-advf-346wizvoe-nayhlaingoo.vercel.app/"
+                  target="_blank"
+                  >https://perfect-404.vercel.app
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div
+              data-carousel-item
+              class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
+            >
+              <div
+                class="bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+              >
+                <h2 class="text-3xl mb-5">LadyBravo</h2>
+                <p class="my-3 text-white">
+                  The Lady Bravo is chocolate online store, currently im working
+                  on it as well base on nuxtjs.
+                </p>
+                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <a
+                  class="font-sans flex items-center gap-2 text-sm text-zinc-200 hover:underline underline-offset-1"
+                  href="https://lady-bravo-uxv6-5j7lrio9x-nayhlaingoo.vercel.app/"
+                  target="_blank"
+                  >http://lady-bravo.vercel.app
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div
+              data-carousel-item
+              class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
+            >
+              <div
+                class="bg-gradient-to-r from-zinc-500 to-slate-600 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+              >
+                <h2 class="text-3xl mb-5">Filter Search</h2>
+                <p class="my-3 text-white">
+                  This is my very first sveltekit project that i tried to build
+                  my own small project just for fun.
+                </p>
+                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <a
+                  class="font-sans flex items-center gap-2 text-sm text-zinc-200 cursor-pointer hover:underline underline-offset-1"
+                  href="https://filter-search-sveltekit-bsyp.vercel.app/"
+                  target="_blank"
+                  >http://filter-search.vercel.app
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div
+              data-carousel-item
+              class="flex items-center justify-start max-w-sm bg-white duration-700 ease-in-out"
+            >
+              <div
+                class="bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-md px-3 py-8 sm:p-7 mx-1 sm:w-96"
+              >
+                <h2 class="text-3xl mb-5">Rethinkable</h2>
+                <p class="my-3 text-white">
+                  The rethinkable is social media app but you can find a
+                  thousands of jobs. Base on sveltekit.
+                </p>
+                <p class="my-4 text-zinc-200">You can visit to see</p>
+                <a
+                  class="font-sans flex items-center gap-2 text-sm text-zinc-200 hover:underline underline-offset-1"
+                  target="_blank"
+                  href="https://rethinkable-portal.vercel.app/jobMarketplace/all-jobs"
+                  >http://job-portal.vercel.app
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-4 h-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider controls -->
+        <div class="flex mt-2">
+          <button
+            type="button"
+            class="flex top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-prev
+          >
+            <span
+              class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-zinc-200/70 dark:group-hover:bg-zinc-200"
+            >
+              <svg
+                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 19l-7-7 7-7"
+                ></path>
+              </svg>
+              <span class="hidden">Previous</span>
+            </span>
+          </button>
+          <button
+            type="button"
+            class="flex top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-next
+          >
+            <span
+              class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-zinc-200/70 dark:group-hover:bg-zinc-200"
+            >
+              <svg
+                class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5l7 7-7 7"
+                ></path>
+              </svg>
+              <span class="hidden">Next</span>
+            </span>
+          </button>
+        </div>
+      </div>
+      <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    </section>
+
+    <section
+      class="bg-gradient-to-br from-zinc-50/70 to-zinc-50/10 pt-10 pb-14"
+    >
+      <div class="sm:px-10 px-2 flex flex-wrap justify-between items-center">
+        <h2 class="text-zinc-800 text-6xl leading-tight">
+          FREQUENTLY ASKED <br />
+          QUESTIONS.
+        </h2>
+        <div
+          class="md:mr-10 font-sans md:w-auto w-full text-zinc-400 tracking-tighter mt-1"
+        >
+          <details class="mb-4 md:w-[35rem] w-full mx-auto duration-700">
+            <summary
+              class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
+            >
+              Do you develop the websites?
+            </summary>
+            <span class="">
+              Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
+              ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
+              nostrud pariatur culpa magna in aute.
+            </span>
+          </details>
+          <details class="mb-4 md:w-[35rem] w-full mx-auto">
+            <summary
+              class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
+            >
+              What platform do you use?
+            </summary>
+            <span class="">
+              Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
+              ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
+              nostrud pariatur culpa magna in aute.
+            </span>
+          </details>
+          <details class="mb-4 md:w-[35rem] w-full mx-auto">
+            <summary
+              class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
+            >
+              How about mobile apps do you include app development?
+            </summary>
+            <span class="">
+              Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
+              ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
+              nostrud pariatur culpa magna in aute.
+            </span>
+          </details>
+          <details class="mb-4 md:w-[35rem] w-full mx-auto">
+            <summary
+              class="font-semibold text-zinc-600 bg-zinc-300/20 rounded-sm p-4 cursor-pointer select-none"
+            >
+              Timing, how soon can we get started?
+            </summary>
+            <span class="">
+              Laboris qui labore cillum culpa in sunt quis sint veniam. Dolore
+              ex aute deserunt esse ipsum elit aliqua. Aute quis minim velit
+              nostrud pariatur culpa magna in aute.
+            </span>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="sm:px-10 px-2 pt-16 pb-10 bg-gradient-to-br from-zinc-50/70 to-zinc-50/10"
+    >
+      <h2 class="text-5xl text-zinc-800 text-4xl text-left mb-10">
+        GET IN TOUCH.
+      </h2>
+      <div class="w-full flex flex-col gap-4 text-zinc-700">
+        <a
+          data-aos="fade-up"
+          data-aos-duration="500"
+          data-aos-anchor-placement="top-bottom"
+          href="https://www.facebook.com/Poe.Sohail6715/"
+          target="_blank"
+        >
+          <div
+            class="flex justify-between items-center bg-zinc-300/20 text-xl py-7 px-4 font-sans hover:scale-[.99] rounded-sm duration-200"
+          >
+            Facebook
+            <span class="text-zinc-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                />
+              </svg>
+            </span>
+          </div>
+        </a>
+        <a
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-anchor-placement="top-bottom"
+          href="https://www.instagram.com/_nay_93_/"
+          target="_blank"
+        >
+          <div
+            class="flex justify-between items-center bg-zinc-300/20 text-xl py-7 px-4 font-sans hover:scale-[.99] rounded-sm duration-200"
+          >
+            Instagram
+            <span class="text-zinc-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                />
+              </svg>
+            </span>
+          </div>
+        </a>
+        <a
+          data-aos="fade-up"
+          data-aos-duration="700"
+          data-aos-anchor-placement="top-bottom"
+          href="https://github.com/nayhlaingoo"
+          target="_blank"
+        >
+          <div
+            class="flex justify-between items-center bg-zinc-300/20 text-xl py-7 px-4 font-sans hover:scale-[.99] rounded-sm duration-200"
+          >
+            GitHub
+            <span class="text-zinc-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                />
+              </svg>
+            </span>
+          </div>
+        </a>
+        <a
+          data-aos="fade-up"
+          data-aos-duration="800"
+          data-aos-anchor-placement="top-bottom"
+          href="https://www.linkedin.com/in/nay-hlaing-oo-a22b30238/"
+          target="_blank"
+        >
+          <div
+            class="flex justify-between items-center bg-zinc-300/20 text-xl py-7 px-4 font-sans hover:scale-[.99] rounded-sm duration-200"
+          >
+            LinkedIn
+            <span class="text-zinc-500">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-6 h-6"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244"
+                />
+              </svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="sm:px-10 px-2">
+      <div
+        class="bg-gradient-to-r from-black/0 via-black/20 to-black/0 w-full h-px"
+      ></div>
+      <div class="flex justify-between md:pt-5 p-3">
+        <div class="flex flex-col justify-end">
+          <p class="text-zinc-400 text-xs sm:text-sm">@nay/sohial.com</p>
+          <p class="text-zinc-600 text-sm sm:text-base">
+            copyright © 2022 All rights reserved
+          </p>
+        </div>
+        <div class="flex flex-col">
+          <div class="flex mb-2">
+            <div class="xl:w-14 xl:h-14 md:w-10 md:h-10 w-7 h-7">
+              <img
+                class="w-full h-full rounded-full object-cover"
+                src="/Images/IMG4.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a
+      href="#"
+      id="top"
+      class="sticky bottom-5 left-full mr-3 font-sans text-sm text-zinc-200 bg-slate-800 p-2 rounded-full z-50"
+      >back to top <span class="ml-0.5">&#8593;</span></a
+    >
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"
+      integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"
+      integrity="sha512-CPA5LMoJI/a5HkSIAKcBtFXe4gqGjPUL2ExF/3PmhrrHI17wod9xOqqF+0WZQRKIIq0KwF8oG5BaiWobtrke3A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
